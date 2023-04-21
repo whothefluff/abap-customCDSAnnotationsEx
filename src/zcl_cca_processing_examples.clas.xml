@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_CCA_PROCESSING_EXAMPLES</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Custom CDS annotations processing examples</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_ENTITIES_WITH_CUST_ANNOT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Returns annotated entities</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>READ_ZI_CCA_DEFAULTDATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Returns processed ZI_CCA_DefaultData</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>READ_ZI_CCA_SOMEDATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Returns processed ZI_CCA_SomeData</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>READ_ZI_CCA_SOMEDATAWPARAMS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Returns processed ZI_CCA_SomeDataWParams</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
